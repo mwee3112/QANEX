@@ -196,12 +196,12 @@ Generate test cases for OPCOF-6568, only for field validation
 
 After receiving the Jira ticket, QANEX follows its configured workflow.
 
-### Step 1 -- Load SWMS Domain Context
+### Step 1: Load SWMS Domain Context
 
 QANEX first loads SWMS terminology, acronyms, and cross-reference
 guidance.
 
-### Step 2 -- Read the Jira Ticket
+### Step 2: Read the Jira Ticket
 
 QANEX retrieves the ticket and analyzes:
 
@@ -216,7 +216,7 @@ QANEX retrieves the ticket and analyzes:
 -   Attachments
 -   Embedded screenshots/references
 
-### Step 3 -- Read Linked Jira Issues
+### Step 3: Read Linked Jira Issues
 
 Linked issues are checked for additional:
 
@@ -225,7 +225,7 @@ Linked issues are checked for additional:
 -   Constraints
 -   Business behavior
 
-### Step 4 -- Read Confluence References
+### Step 4: Read Confluence References
 
 Relevant Confluence documentation is checked for:
 
@@ -237,7 +237,7 @@ Relevant Confluence documentation is checked for:
 -   Field constraints
 -   Data setup instructions
 
-### Step 5 -- Validate Implementation When Required
+### Step 5: Validate Implementation When Required
 
 QANEX may inspect the SWMS QE Phase 2 UI repository to confirm
 implementation-dependent behavior.
@@ -252,12 +252,12 @@ The agent can search for:
 -   Enum values
 -   Error messages
 
-### Step 6 -- Search Existing QMetry Test Cases
+### Step 6: Search Existing QMetry Test Cases
 
 Existing test cases are reviewed to prevent duplicate coverage and
 maintain established QA patterns.
 
-### Step 7 -- Analyze Coverage
+### Step 7: Analyze Coverage
 
 QANEX determines:
 
@@ -266,17 +266,17 @@ QANEX determines:
 -   Which scenarios need separate test cases
 -   Which negative/boundary cases apply
 
-### Step 8 -- Generate Test Cases
+### Step 8: Generate Test Cases
 
 The final output is generated as one continuous Markdown table.
 
-### Step 9 -- Export to Excel
+### Step 9: Export to Excel
 
 QANEX generates an Excel workbook containing the same test cases.
 
 ------------------------------------------------------------------------
 
-## 9. Excel Generation Requirement
+## 8. Excel Generation Requirement
 
 The QANEX environment must have `openpyxl` available.
 
@@ -296,7 +296,7 @@ QANEX then uses `openpyxl` to generate and format the workbook.
 
 ------------------------------------------------------------------------
 
-## 10. Troubleshooting
+## 9. Troubleshooting
 
 ### QANEX does not appear in VS Code
 
@@ -389,7 +389,7 @@ pip install openpyxl -q
 
 ------------------------------------------------------------------------
 
-## 11. Typical End-to-End Usage
+## 10. Typical End-to-End Usage
 
 A typical QE workflow is:
 
@@ -407,7 +407,7 @@ A typical QE workflow is:
 ------------------------------------------------------------------------
 
 
-## 12. Before Using QANEX
+## 11. Before Using QANEX
 
 Use this checklist:
 
@@ -425,7 +425,7 @@ Use this checklist:
 
 ------------------------------------------------------------------------
 
-## 13. Reference
+## 12. Reference
 
 The complete behavior, workflow, test-case rules, coverage rules, and
 output requirements are defined in the QANEX agent specification in
