@@ -32,8 +32,6 @@ The QANEX specification references these tool integrations:
 
 ## 2. Install QANEX
 
-QANEX is configured as a VS Code agent/prompt file.
-
 QANEX.agent.md is already provided in this repository. After cloning the repository, copy or place the file in the appropriate VS Code agents directory or add it as a custom agent in GitHub Copilot.
 
 ``` text
