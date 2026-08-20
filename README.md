@@ -39,8 +39,13 @@ Create the QANEX agent file:
 ``` text
 QANEX.agent.md
 ```
+#### Option 1 - VS Code Custom Agent
 
-Place it in the VS Code prompts/agents directory:
+Add QANEX.agent.md as a custom agent in GitHub Copilot/VS Code.
+
+#### Option 2 - VS Code Agents Directory
+
+Alternatively, place the file in the VS Code user agents directory:
 
 ``` text
 C:\Users\<USERNAME>\AppData\Roaming\Code\User\prompts\agents\
